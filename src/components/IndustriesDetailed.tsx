@@ -16,7 +16,7 @@ const IndustriesDetailed = () => {
                 <h2 className="industries__title">Here are our <span className="gold">Industries</span></h2>
                 <p className="industries__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, pariatur.</p>
                 <div className="industry__container">
-                    <Industry img={shipping} title="Shipping" para="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate, debitis inventore aperiam voluptatibus neque fuga magni architecto voluptatem. Dignissimos, ex!"/>
+                    <Industry img={shipping} title="Shipping" para="Shipping law is comprised of a broad range of disciplines relating to either the financing, construction, insurance, use of and ultimately decommissioning of vessels; or the transportation of goods and people by sea."/>
                     <Industry img={logistics} title="Logistics" para="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate, debitis inventore aperiam voluptatibus neque fuga magni architecto voluptatem. Dignissimos, ex!"/>
                     <Industry img={insurance} title="Insurance" para="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate, debitis inventore aperiam voluptatibus neque fuga magni architecto voluptatem. Dignissimos, ex!"/>
                     <Industry img={oilGas} title="Oil &amp; Gas" para="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate, debitis inventore aperiam voluptatibus neque fuga magni architecto voluptatem. Dignissimos, ex!"/>

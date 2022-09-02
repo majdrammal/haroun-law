@@ -7,7 +7,7 @@ const LandingOffer = () => {
             <div className="black__cover"></div>
             <div className="offer__attorneys">
                 <figure className="offer__attorney">
-                    <img src="https://www.prajwaldesai.com/wp-content/uploads/2021/02/Find-Users-Last-Logon-Time-using-4-Easy-Methods.jpg" alt="" />
+                    <img src="https://i0.wp.com/drmohamedkarbal.com/wp-content/uploads/2020/08/1u7a0201-1.jpg?resize=750%2C1125&ssl=1" alt="" />
                     <div className="offer__attorney--text">
                         <div className="offer__attorney--name">
                             Omar Haroun

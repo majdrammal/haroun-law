@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="footer__container">
                 <div className="footer__left">
                     <img src={Logo} alt="" className="footer__logo" />
-                    <p className="footer__left--para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus sit amet nesciunt aut recusandae repellat ipsa at debitis aliquam aliquid.</p>
+                    <p className="footer__left--para">With over 70 years of experience in law and consultancy, Haroun Law Firm has managed to become one of the top law firms in the region.</p>
                     <div className="footer__social--links--wrapper">
                         <figure className="footer__social--link--wrapper social__link--wrapper">                        
                             <FontAwesomeIcon icon={["fab", "square-facebook"]} className="social__link"/>
@@ -35,21 +35,13 @@ const Footer = () => {
                     </div>
                     <p className="sitemap__para">Quickly navigate our site through our sitemap below!</p>
                     <div className="sitemap__links">
-                        <ul className="sitemap__links--left">
-                            <a href="#" className="sitemap__link">Home</a>
-                            <a href="#offer" className="sitemap__link">About</a>
-                            <a href="#results" className="sitemap__link">Industries</a>
-                            <a href="#highlights" className="sitemap__link">Highlights</a>
-                            <a href="#map" className="sitemap__link">Location</a>
-                            <a href="/" className="sitemap__link">Terms &amp; Conditions</a>
-                        </ul>
-                        <ul className="sitemap__links--right">
+                        <ul className="sitemap__links">
                             <a href="/" className="sitemap__link">Home</a>
                             <a href="/about" className="sitemap__link">About the Firm</a>
                             <a href="/industries" className="sitemap__link">Industries</a>
                             <a href="/highlights" className="sitemap__link">Highlights</a>
+                            <a href="/location" className="sitemap__link">Location</a>
                             <a href="/contact" className="sitemap__link">Contact Us</a>
-                            <a href="/privacy" className="sitemap__link">Privacy Policy</a>
                         </ul> 
                     </div>
                 </div>

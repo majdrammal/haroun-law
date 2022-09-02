@@ -12,7 +12,7 @@ const LandingHeader = () => {
                 <h1 className="header__title--upper">
                     70 Years
                 </h1>       
-                <h3 className="header__title--middle">of dedication</h3>
+                <h2 className="header__title--middle">of dedication</h2>
                 <h2 className="header__title--lower">and service</h2> 
             </div>
             <button className="contact__btn">
