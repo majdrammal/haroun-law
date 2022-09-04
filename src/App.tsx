@@ -11,6 +11,9 @@ function App() {
   return (
     <Router>
       <div className="App">
+        <div className="alert">
+          This website is still under construction.
+        </div>
         <Nav />
         <Routes>
           <Route path="*" element={<Navigate to="/" />} />

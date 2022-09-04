@@ -7,7 +7,7 @@ const LandingOffer = () => {
             <div className="black__cover"></div>
             <div className="offer__attorneys">
                 <figure className="offer__attorney">
-                    <img src="https://i0.wp.com/drmohamedkarbal.com/wp-content/uploads/2020/08/1u7a0201-1.jpg?resize=750%2C1125&ssl=1" alt="" />
+                    <img src="https://hamralawgroup.com/wp-content/uploads/2019/08/Ahamra-1024x1024.jpg" alt="" />
                     <div className="offer__attorney--text">
                         <div className="offer__attorney--name">
                             Omar Haroun

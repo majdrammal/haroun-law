@@ -8,6 +8,22 @@
   font-family: 'Roboto', sans-serif;
 }
 
+/* ALERT */
+
+.alert {
+    background-color: #c98f48;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    padding-top: 30px;
+}
+
+/* --- */
+
 .gold {
   color: #c98f48;
 }
@@ -809,6 +825,12 @@ header {
 
 .industry__para {
     margin: 0 16px;
+    color: #6a6a6a;
+    transition: all 300ms ease;
+}
+
+.industry:hover .industry__para {
+    color: black;
 }
 
 /* 
