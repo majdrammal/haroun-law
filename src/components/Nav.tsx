@@ -8,17 +8,19 @@ const Nav = () => {
         <div className="nav__container">
             <nav>
                 <div className="nav__upper">
-                    <img className="nav__logo" src={ Logo } alt="" />
+                    <a className="nav__logo--wrapper" href="/">
+                        <img className="nav__logo" src={ Logo } alt="" />
+                    </a>
                     <div className="nav__upper--right">
-                        <figure className="social__link--wrapper">                        
+                        <a className="social__link--wrapper">                        
                             <FontAwesomeIcon icon={["fab", "square-facebook"]} className="social__link"/>
-                        </figure>
-                        <figure className="social__link--wrapper">                        
+                        </a>
+                        <a className="social__link--wrapper">                        
                             <FontAwesomeIcon icon={["fab", "linkedin-in"]} className="social__link"/>
-                        </figure>
-                        <figure className="social__link--wrapper">                        
+                        </a>
+                        <a className="social__link--wrapper">                        
                             <img src={bars} alt="" className="social__link" />
-                        </figure>
+                        </a>
                     </div>
                 </div>
                 <div className="nav__lower">

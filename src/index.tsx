@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './App.css';
 import App from './App';
+import "animate.css/animate.min.css";
 import reportWebVitals from './reportWebVitals';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas, faStar, faClock, faPhoneVolume, faUserGroup, faMedal, faTv, faWallet, faLink, faBriefcase, faBuilding, faGlobe, faUserTie, faScaleBalanced, faLocationDot, faEnvelope } from '@fortawesome/free-solid-svg-icons';

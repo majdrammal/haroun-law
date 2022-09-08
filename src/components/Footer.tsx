@@ -13,15 +13,15 @@ const Footer = () => {
                     <img src={Logo} alt="" className="footer__logo" />
                     <p className="footer__left--para">With over 70 years of experience in law and consultancy, Haroun Law Firm has managed to become one of the top law firms in the region.</p>
                     <div className="footer__social--links--wrapper">
-                        <figure className="footer__social--link--wrapper social__link--wrapper">                        
+                        <a className="footer__social--link--wrapper social__link--wrapper">                        
                             <FontAwesomeIcon icon={["fab", "square-facebook"]} className="social__link"/>
-                        </figure>
-                        <figure className="footer__social--link--wrapper social__link--wrapper">                        
+                        </a>
+                        <a className="footer__social--link--wrapper social__link--wrapper">                        
                             <FontAwesomeIcon icon={["fab", "linkedin-in"]} className="social__link"/>
-                        </figure>
-                        <figure className="footer__social--link--wrapper social__link--wrapper">                        
+                        </a>
+                        <a className="footer__social--link--wrapper social__link--wrapper">                        
                             <img src={bars} alt="" className="social__link" />
-                        </figure>
+                        </a>
                     </div>
                     <p className="copyright__text">
                         &copy; 2022 Haroun Law Firm | Created by 
